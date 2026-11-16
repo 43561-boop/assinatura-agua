@@ -1,0 +1,530 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>AquaMind™ | Hydration-as-a-Service (HaaS)</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:wght@300;400;500;600;700;800&family=Space+Grotesk:wght@500;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <!-- Background Glow Blobs -->
+    <div class="glow-bg glow-1"></div>
+    <div class="glow-bg glow-2"></div>
+    <div class="glow-bg glow-3"></div>
+
+    <!-- Top Announcement Bar -->
+    <header class="top-announcement">
+        <span>🚨 <strong>RODADA SEED:</strong> Captamos R$ 45 milhões para ensinar seres humanos a ingerir fluidos. <a href="#planos">Garanta sua cota hídrica &rarr;</a></span>
+    </header>
+
+    <!-- Navigation -->
+    <nav class="navbar">
+        <div class="nav-container">
+            <a href="#" class="brand-logo">
+                <span class="logo-icon">💧</span>
+                <span class="logo-text">Aqua<span class="text-highlight">Mind</span></span>
+                <span class="badge-mini">HaaS 2.0</span>
+            </a>
+            <ul class="nav-links">
+                <li><a href="#problema">O Problema</a></li>
+                <li><a href="#metodologia">Metodologia</a></li>
+                <li><a href="#features">Tecnologia</a></li>
+                <li><a href="#planos">Planos</a></li>
+                <li><a href="#depoimentos">Cases de Sucesso</a></li>
+                <li><a href="#faq">FAQ</a></li>
+            </ul>
+            <div class="nav-actions">
+                <a href="#planos" class="btn btn-outline">Área do Sedento</a>
+                <a href="#planos" class="btn btn-primary">Aprender a Beber</a>
+            </div>
+        </div>
+    </nav>
+
+    <main>
+        <!-- Hero Section -->
+        <section class="hero-section">
+            <div class="container hero-container">
+                <div class="hero-content">
+                    <div class="hero-tag">
+                        <span class="pulse-dot"></span>
+                        Startup Categoria 5: Nós queremos seu dinheiro
+                    </div>
+                    <h1 class="hero-title">
+                        Você está bebendo água <br>
+                        <span class="gradient-text">completamente errado.</span>
+                    </h1>
+                    <p class="hero-description">
+                        Durante milhões de anos, a humanidade engoliu líquidos de forma amadora, sem dashboard, sem blockchain e sem mentoria. Chegou o <strong>AquaMind™</strong>: a primeira plataforma global de <em>Hydration-as-a-Service (HaaS)</em>.
+                    </p>
+                    
+                    <div class="hero-cta-group">
+                        <a href="#planos" class="btn btn-primary btn-large">
+                            Desbloquear Meu 1º Gole Exclusivo
+                            <span class="arrow">&rarr;</span>
+                        </a>
+                        <a href="#metodologia" class="btn btn-glass btn-large">
+                            Assistir Webinar: "A Arte do Copo a 45°"
+                        </a>
+                    </div>
+
+                    <div class="hero-social-proof">
+                        <div class="avatar-stack">
+                            <span class="avatar-circle">🧔🏻‍♂️</span>
+                            <span class="avatar-circle">👩🏼‍💻</span>
+                            <span class="avatar-circle">🧑🏽‍💼</span>
+                            <span class="avatar-circle">🦄</span>
+                        </div>
+                        <div class="proof-text">
+                            <strong>+18.420 hidropreneurs</strong> já pagam para não morrer de sede
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Interactive CSS Mockup Widget -->
+                <div class="hero-mockup-wrapper">
+                    <div class="smart-beaker-card">
+                        <div class="card-glass-header">
+                            <span class="beaker-status"><span class="status-indicator"></span> SISTEMA DE DEGLUTIÇÃO ATIVO</span>
+                            <span class="beaker-time">v4.2.1-cloud</span>
+                        </div>
+                        <div class="card-glass-body">
+                            <div class="drop-visualizer">
+                                <div class="water-ring outer-ring"></div>
+                                <div class="water-ring middle-ring"></div>
+                                <div class="core-droplet">
+                                    <span class="droplet-emoji">💧</span>
+                                    <span class="droplet-label">IA HÍDRICA</span>
+                                </div>
+                            </div>
+                            <div class="telemetry-grid">
+                                <div class="telemetry-item">
+                                    <span class="telemetry-title">Ângulo do Copo</span>
+                                    <span class="telemetry-value text-accent">44.8° <small>(Quase perfeito)</small></span>
+                                </div>
+                                <div class="telemetry-item">
+                                    <span class="telemetry-title">Secura Labial</span>
+                                    <span class="telemetry-value text-warning">88% <small>(Crítico)</small></span>
+                                </div>
+                                <div class="telemetry-item">
+                                    <span class="telemetry-title">Sip Readiness Score™</span>
+                                    <span class="telemetry-value text-success">98.2 / 100</span>
+                                </div>
+                                <div class="telemetry-item">
+                                    <span class="telemetry-title">Água Inclusa</span>
+                                    <span class="telemetry-value text-danger">0.00 mL <small>(Compre à parte)</small></span>
+                                </div>
+                            </div>
+                            <div class="coach-prompt">
+                                <span class="ai-avatar">🤖</span>
+                                <div class="coach-bubble">
+                                    <em>"Aproxime o orifício bucal da borda cerâmica e execute sucção controlada. Não engula ainda! Aguarde confirmação do servidor."</em>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="card-glass-footer">
+                            <div class="progress-bar-container">
+                                <div class="progress-bar-fill"></div>
+                            </div>
+                            <span class="progress-text">Sincronizando mililitros com a nuvem AWS...</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Numbers / Brag Wall -->
+        <section class="stats-banner">
+            <div class="container stats-grid">
+                <div class="stat-card">
+                    <span class="stat-number">R$ 197<small>/mês</small></span>
+                    <span class="stat-label">Para saber quando engolir</span>
+                </div>
+                <div class="stat-card">
+                    <span class="stat-number">0 Litros</span>
+                    <span class="stat-label">De água real fornecida pelo plano</span>
+                </div>
+                <div class="stat-card">
+                    <span class="stat-number">100%</span>
+                    <span class="stat-label">Margem de lucro puro dos fundadores</span>
+                </div>
+                <div class="stat-card">
+                    <span class="stat-number">4.9 / 5.0</span>
+                    <span class="stat-label">Nota no Glassdoor de Faria Limers com sede</span>
+                </div>
+            </div>
+        </section>
+
+        <!-- Problem Section -->
+        <section id="problema" class="section problem-section">
+            <div class="container">
+                <div class="section-badge">O Diagnóstico que Ninguém Te Contou</div>
+                <h2 class="section-title">Beber água de graça é uma ilusão biológica ineficiente.</h2>
+                <p class="section-subtitle">
+                    Você provavelmente pega um copo, coloca na boca e engole sem nenhum framework ágil ou KPI de hidratação celular. Isso é inaceitável em pleno século XXI.
+                </p>
+
+                <div class="comparison-grid">
+                    <div class="comparison-card card-bad">
+                        <div class="comparison-header">
+                            <span class="header-tag">❌ Beber Água Sem Assinatura</span>
+                            <h3>O Jeito Tradicional & Primitivo</h3>
+                        </div>
+                        <ul class="comp-list">
+                            <li>Você sente sede apenas quando seu corpo avisa (falta de proatividade preditiva).</li>
+                            <li>Sem certificação digital NFT de cada gole executado.</li>
+                            <li>Nenhum mentor de R$ 800/h validando a inclinação do seu queixo.</li>
+                            <li>Risco iminente de engasgar por falta de metodologia Scrum aplicada à laringe.</li>
+                            <li>Você bebe de graça como um camponês medieval sem ROI tangível.</li>
+                        </ul>
+                    </div>
+
+                    <div class="comparison-card card-good">
+                        <div class="comparison-header">
+                            <span class="header-tag highlight">✨ Assinatura AquaMind™</span>
+                            <h3>O Jeito Hiper-Escalável & Disruptivo</h3>
+                        </div>
+                        <ul class="comp-list">
+                            <li>Algoritmo neural que deduz sede antes mesmo das suas células perceberem.</li>
+                            <li>Protocolo patenteado <strong>Glass-to-Mouth™ (G2M)</strong> em 12 etapas.</li>
+                            <li>Badges de gamificação no LinkedIn: "Top Voice em Deglutição de H₂O".</li>
+                            <li>Acesso a comunidade restrita com outros executivos que pagam mensalidade para beber água.</li>
+                            <li>A água não está inclusa, o que estimula seu mindset de caçador de recursos.</li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Methodology Section -->
+        <section id="metodologia" class="section methodology-section">
+            <div class="container">
+                <div class="section-badge">Metodologia Proprietária</div>
+                <h2 class="section-title">Como funciona o framework "S.I.P." de alta performance</h2>
+                <p class="section-subtitle">
+                    Dividimos um ato involuntário de 3 segundos em uma jornada de mentoria de 18 meses com sprint reviews semanais.
+                </p>
+
+                <div class="timeline-steps">
+                    <div class="step-card">
+                        <div class="step-badge">Fase 01</div>
+                        <div class="step-icon">👁️</div>
+                        <h3>Reconhecimento Visual do H₂O</h3>
+                        <p>Nossa IA analisa através da câmera se o líquido translúcido à sua frente é água mineral premium ou apenas água da torneira desprovida de mindset vencedor.</p>
+                    </div>
+
+                    <div class="step-card">
+                        <div class="step-badge">Fase 02</div>
+                        <div class="step-icon">📐</div>
+                        <h3>Calibração Cervical 45°</h3>
+                        <p>Ajuste o pescoço milimetricamente. Nossa mentoria ensina que inclinações superiores a 47 graus causam desperdício gravitacional de fluidos vitais.</p>
+                    </div>
+
+                    <div class="step-card">
+                        <div class="step-badge">Fase 03</div>
+                        <div class="step-icon">🌊</div>
+                        <h3>The Big Gulp™ (Deglutição)</h3>
+                        <p>Libere a musculatura faríngea sob a contagem regressiva do nosso assistente de voz. O líquido desce rumo ao estômago gerando valor aos acionistas.</p>
+                    </div>
+
+                    <div class="step-card">
+                        <div class="step-badge">Fase 04</div>
+                        <div class="step-icon">📈</div>
+                        <h3>Telemetria & Cobrança no Cartão</h3>
+                        <p>O gole é registrado no nosso banco de dados distribuído e uma micro-taxa de conveniência respiratória é debitada automaticamente da sua conta bancária.</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Features / Buzzword Mania -->
+        <section id="features" class="section features-section">
+            <div class="container">
+                <div class="section-badge">Tecnologia Quântica Desnecessária</div>
+                <h2 class="section-title">Features que justificam você queimar dinheiro conosco</h2>
+                <p class="section-subtitle">
+                    Juntamos todas as buzzwords existentes para transformar sede comum em uma experiência SaaS de R$ 2.400 ao ano.
+                </p>
+
+                <div class="features-grid">
+                    <div class="feature-card">
+                        <div class="feature-icon">🧠</div>
+                        <h3>Neuro-Sip Prediction</h3>
+                        <p>Nossa rede neural avisa: "Seu cérebro está pensando em água". Antecipe a sede antes que vire desidratação não monetizada.</p>
+                    </div>
+
+                    <div class="feature-card">
+                        <div class="feature-icon">⛓️</div>
+                        <h3>Proof of Hydration Blockchain</h3>
+                        <p>Cada mililitro ingerido vira um token fungível não resgatável que prova pro mundo que você se manteve biologicamente vivo.</p>
+                    </div>
+
+                    <div class="feature-card">
+                        <div class="feature-icon">🎙️</div>
+                        <h3>Sons Binaurais de Torneira Pingando</h3>
+                        <p>Playlist exclusiva em alta fidelidade FLAC gravada nas melhores pias da Faria Lima para estimular o reflexo salivar.</p>
+                    </div>
+
+                    <div class="feature-card">
+                        <div class="feature-icon">🛡️</div>
+                        <h3>Certificação Anti-Engasgo SOC-2</h3>
+                        <p>Garantia de 99.99% de uptime traqueal durante suas sessões matinais de deglutição hídrica corporativa.</p>
+                    </div>
+
+                    <div class="feature-card">
+                        <div class="feature-icon">💬</div>
+                        <h3>Comunidade VIP no Discord</h3>
+                        <p>Converse com outros hidropreneurs que também se recusam a beber água sem pagar um carnê mensal pra alguém.</p>
+                    </div>
+
+                    <div class="feature-card">
+                        <div class="feature-icon">🚫</div>
+                        <h3>Zero Água Fornecida</h3>
+                        <p>Sustentabilidade em 1º lugar: a gente não gasta com garrafa nem frete. Você busca sua água na pia e paga só o conhecimento.</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Pricing Section -->
+        <section id="planos" class="section pricing-section">
+            <div class="container">
+                <div class="section-badge">Tabela de Preços Exclusiva</div>
+                <h2 class="section-title">Escolha como você prefere ser cobrado por viver</h2>
+                <p class="section-subtitle">
+                    Planos desenhados meticulosamente para esvaziar seu bolso antes de saciar sua sede.
+                </p>
+
+                <div class="pricing-grid">
+                    <!-- Plano 1 -->
+                    <div class="pricing-card">
+                        <div class="plan-header">
+                            <span class="plan-level">Iniciante / Gota</span>
+                            <div class="plan-price">
+                                <span class="currency">R$</span>
+                                <span class="amount">67</span>
+                                <span class="period">/mês</span>
+                            </div>
+                            <p class="plan-desc">Para quem ainda tem vergonha de admitir que paga para aprender a engolir água.</p>
+                        </div>
+                        <ul class="plan-features">
+                            <li><span class="check">✓</span> E-book em PDF de 3 páginas: <em>"O que é Água?"</em></li>
+                            <li><span class="check">✓</span> 3 goles supervisionados por semana via chat assíncrono</li>
+                            <li><span class="check">✓</span> Acesso ao canal <code>#sede-básica</code> do Discord</li>
+                            <li><span class="cross">✕</span> Não inclui lembretes de respirar</li>
+                            <li><span class="cross">✕</span> Água física absolutamente NÃO inclusa</li>
+                        </ul>
+                        <a href="#" class="btn btn-outline btn-full">Assinar Plano Gota</a>
+                    </div>
+
+                    <!-- Plano 2 (Featured) -->
+                    <div class="pricing-card card-featured">
+                        <div class="popular-tag">🔥 MAIS ESCOLHIDO POR ILUDIDOS</div>
+                        <div class="plan-header">
+                            <span class="plan-level">Pro / Torrente</span>
+                            <div class="plan-price">
+                                <span class="currency">R$</span>
+                                <span class="amount">197</span>
+                                <span class="period">/mês</span>
+                            </div>
+                            <p class="plan-desc">A experiência definitiva de quem quer postar foto com copo d'água no LinkedIn.</p>
+                        </div>
+                        <ul class="plan-features">
+                            <li><span class="check">✓</span> <strong>Deglutição Ilimitada</strong> com suporte de IA 24/7</li>
+                            <li><span class="check">✓</span> Mentoria quinzenal em grupo com Sommelier de Torneira</li>
+                            <li><span class="check">✓</span> Alarme sonoro em frequência quântica quando a boca secar</li>
+                            <li><span class="check">✓</span> Selo Verificado: "Hidratado por Assinatura"</li>
+                            <li><span class="cross">✕</span> Você ainda precisa levantar e encher o próprio copo</li>
+                        </ul>
+                        <a href="#" class="btn btn-primary btn-full">Começar Trial de 3 Dias</a>
+                    </div>
+
+                    <!-- Plano 3 -->
+                    <div class="pricing-card">
+                        <div class="plan-header">
+                            <span class="plan-level">Mastermind / Tsunami</span>
+                            <div class="plan-price">
+                                <span class="currency">R$</span>
+                                <span class="amount">997</span>
+                                <span class="period">/mês</span>
+                            </div>
+                            <p class="plan-desc">Para fundadores de startups e investidores anjo com excesso de capital de giro.</p>
+                        </div>
+                        <ul class="plan-features">
+                            <li><span class="check">✓</span> Tudo do plano Pro + Linha direta com o nosso CEO</li>
+                            <li><span class="check">✓</span> Retiro Espiritual de 2 dias em Itu (água não inclusa)</li>
+                            <li><span class="check">✓</span> Garrafa de vidro com logo gravado a laser e NFT exclusivo</li>
+                            <li><span class="check">✓</span> Envio mensal de um laudo confirmando que você urinou</li>
+                            <li><span class="check">✓</span> Direito de indicar 2 amigos e receber comissão hídrica</li>
+                        </ul>
+                        <a href="#" class="btn btn-outline btn-full">Candidatar-se ao Mastermind</a>
+                    </div>
+                </div>
+
+                <div class="pricing-guarantee">
+                    <span class="guarantee-icon">🛡️</span>
+                    <div>
+                        <strong>Garantia Incondicional de 7 Dias:</strong> Se você continuar com sede ou perceber que beber água sempre foi de graça, nós não devolveremos seu dinheiro, mas enviaremos um sticker motivacional para o WhatsApp.
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Testimonials -->
+        <section id="depoimentos" class="section testimonials-section">
+            <div class="container">
+                <div class="section-badge">Histórias de Transformação Hídrica</div>
+                <h2 class="section-title">Quem contratou agora bebe com propósito</h2>
+                <p class="section-subtitle">Veja como transformamos o saldo bancário e os rins de quem acreditou no nosso pitch.</p>
+
+                <div class="testimonials-grid">
+                    <div class="testimonial-card">
+                        <div class="testimonial-rating">★★★★★</div>
+                        <p class="quote">
+                            "Antes da AquaMind, eu tentava respirar a água pelo nariz ou bebia direto da poça de chuva. Hoje, com a mentoria em grupo das 5h da manhã, consigo levar o copo aos lábios com 94% de precisão. Minha conta bancária secou, mas meus rins agradecem!"
+                        </p>
+                        <div class="author-info">
+                            <div class="author-avatar">🧔🏻</div>
+                            <div>
+                                <strong>Enzo Silveira</strong>
+                                <span>Growth Hacker & Sedento em Tempo Integral</span>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="testimonial-card">
+                        <div class="testimonial-rating">★★★★★</div>
+                        <p class="quote">
+                            "Eu achei um absurdo pagar R$ 197 por mês para me mandarem um push dizendo 'Engula agora'. Mas quando vi a comunidade com outros executivos no Discord fazendo benchmarking de mililitros, percebi que o ROI era imensurável."
+                        </p>
+                        <div class="author-info">
+                            <div class="author-avatar">👩🏼‍💼</div>
+                            <div>
+                                <strong>Larissa Bittencourt</strong>
+                                <span>Head of Liquid Operations</span>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="testimonial-card">
+                        <div class="testimonial-rating">★★★★★</div>
+                        <p class="quote">
+                            "O que mais me impressionou foi a honestidade deles. Pedi um copo d'água e eles me enviaram um PDF ensinando a visualizar a água. Cancelei minha conta de água da Sabesp e fiquei só na assinatura."
+                        </p>
+                        <div class="author-info">
+                            <div class="author-avatar">🧑🏻‍💻</div>
+                            <div>
+                                <strong>Matheus Albuquerque</strong>
+                                <span>Agile Coach & Aficionado por H₂O</span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- FAQ Section -->
+        <section id="faq" class="section faq-section">
+            <div class="container faq-container">
+                <div class="section-badge">Dúvidas Frequentes</div>
+                <h2 class="section-title">Perguntas que pessoas inteligentes não fariam</h2>
+                
+                <div class="faq-list">
+                    <div class="faq-item">
+                        <h4 class="faq-question">1. A água física vem pelos Correios ou transportadora?</h4>
+                        <p class="faq-answer">
+                            Não! Nós somos uma empresa de software & metodologia, não uma distribuidora de líquidos. Você deve fornecer sua própria água (preferencialmente mineral alcalina comprada em empórios gourmet). Nós apenas ensinamos o ato mental e motor de ingeri-la.
+                        </p>
+                    </div>
+
+                    <div class="faq-item">
+                        <h4 class="faq-question">2. Por que eu não posso simplesmente beber água de graça da minha torneira?</h4>
+                        <p class="faq-answer">
+                            Você pode, da mesma forma que você pode caminhar sem pagar mensalidade na academia. Mas onde está a gamificação? Onde está o painel de métricas? Beber água sem mentoria é um desperdício do seu potencial cognitivo.
+                        </p>
+                    </div>
+
+                    <div class="faq-item">
+                        <h4 class="faq-question">3. O que acontece se eu esquecer de beber água?</h4>
+                        <p class="faq-answer">
+                            Nosso plano Pro envia 47 notificações simultâneas, liga para os seus parentes mais próximos e avisa no Slack da sua empresa que você está cometendo auto-sabotagem celular.
+                        </p>
+                    </div>
+
+                    <div class="faq-item">
+                        <h4 class="faq-question">4. Posso usar a assinatura para beber café, suco ou cerveja?</h4>
+                        <p class="faq-answer">
+                            Apenas mediante a contratação do <em>Add-on Multi-Líquidos™</em> por mais R$ 89,90/mês. Tentar beber outros fluidos com o plano H₂O Standard viola nossos termos de serviço e revoga sua licença de deglutição.
+                        </p>
+                    </div>
+
+                    <div class="faq-item">
+                        <h4 class="faq-question">5. Essa startup é uma piada com empresas que inventam problemas para vender soluções?</h4>
+                        <p class="faq-answer">
+                            Não use a palavra "piada". Nós preferimos o termo <em>"Modelo de Negócios Hiper-Monetizado Categoria 5: Startups que querem o seu dinheiro"</em>. Agora passe seu cartão de crédito.
+                        </p>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Final CTA Banner -->
+        <section class="final-cta">
+            <div class="container cta-box">
+                <div class="cta-content">
+                    <span class="cta-tag">💧 ÚLTIMAS VAGAS NA TURMA DE DEGLUTIÇÃO</span>
+                    <h2>Sua boca vai continuar seca até quando?</h2>
+                    <p>Pare de desperdiçar sua hidratação com métodos gratuitos e ultrapassados. Entre hoje para a elite hídrica global.</p>
+                    <div class="cta-buttons">
+                        <a href="#planos" class="btn btn-primary btn-large">Quero Ser Cobrado por Beber Água</a>
+                    </div>
+                    <span class="cta-subnote">* O consumo de água real não está incluso. Termos e condições se aplicam. Você continuará com sede se não comprar a água.</span>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="container footer-content">
+            <div class="footer-brand">
+                <div class="brand-logo">
+                    <span class="logo-icon">💧</span>
+                    <span class="logo-text">Aqua<span class="text-highlight">Mind</span></span>
+                </div>
+                <p>Acelerando o ato biológico da sede através de consultorias incompreensíveis e mensalidades abusivas.</p>
+                <div class="legal-badge">Selo Categoria 5: "Pegamos seu dinheiro com consentimento"</div>
+            </div>
+
+            <div class="footer-links">
+                <div class="footer-column">
+                    <h5>Produto</h5>
+                    <a href="#metodologia">Metodologia 45°</a>
+                    <a href="#features">Smart Gulp™ AI</a>
+                    <a href="#planos">Planos & Extorsão</a>
+                    <a href="#">Add-on Cerveja (Beta)</a>
+                </div>
+                <div class="footer-column">
+                    <h5>Jurídico</h5>
+                    <a href="#">Termos de Isenção de Sede</a>
+                    <a href="#">Política de Não Devolução</a>
+                    <a href="#">Aviso de Falência Hídrica</a>
+                    <a href="#">LGPD (Líquidos Gerais)</a>
+                </div>
+                <div class="footer-column">
+                    <h5>Investidores</h5>
+                    <a href="#">Pitch Deck de 90 slides</a>
+                    <a href="#">Queima de Caixa Mensal</a>
+                    <a href="#">Compre Nossas Ações</a>
+                    <a href="#">Fale com o Faria Limer</a>
+                </div>
+            </div>
+        </div>
+        <div class="container footer-bottom">
+            <p>&copy; 2026 AquaMind Inc. Todos os direitos reservados. Feito exclusivamente com HTML e CSS para salvar seu bolso da sede.</p>
+        </div>
+    </footer>
+</body>
+</html>
